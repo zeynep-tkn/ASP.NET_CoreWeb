@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SONfhxs+eynyHEu8TIm/0UDkeGVCYGOkdebH7Pjkdo4=",
+  "Hash": "geMznXhiAgDaDO126aiLGPIoQzo5buCXsLrut5iV1pE=",
   "Source": "OtelRezervasyonSitesi",
   "BasePath": "_content/OtelRezervasyonSitesi",
   "Mode": "Default",
@@ -1193,6 +1193,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\it.stajyer1\\source\\repos\\newRepo\\OtelRezervasyonSitesi\\wwwroot\\videos\\genelbakisvideo.mp4",
+      "SourceId": "OtelRezervasyonSitesi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\it.stajyer1\\source\\repos\\newRepo\\OtelRezervasyonSitesi\\wwwroot\\",
+      "BasePath": "_content/OtelRezervasyonSitesi",
+      "RelativePath": "videos/genelbakisvideo.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\genelbakisvideo.mp4"
     }
   ]
 }

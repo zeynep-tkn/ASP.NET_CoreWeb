@@ -245,6 +245,10 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\it.stajyer1\\source\\repos\\newRepo\\OtelRezervasyonSitesi\\wwwroot\\videos\\genelbakisvideo.mp4",
+      "PackagePath": "staticwebassets\\videos\\genelbakisvideo.mp4"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.OtelRezervasyonSitesi.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
