@@ -22,6 +22,18 @@ namespace OtelRezervasyonSitesi.Controllers
         {
             return View();
         }
+        public IActionResult OtelGenelBakis()
+        {
+            return View();
+        }
+        public IActionResult Konaklama()
+        {
+            return View();
+        }
+
+
+
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
