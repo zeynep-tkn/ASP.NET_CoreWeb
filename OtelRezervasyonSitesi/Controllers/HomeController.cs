@@ -22,6 +22,7 @@ namespace OtelRezervasyonSitesi.Controllers
         {
             return View();
         }
+<<<<<<< HEAD
         public IActionResult OtelGenelBakis()
         {
             return View();
@@ -34,6 +35,16 @@ namespace OtelRezervasyonSitesi.Controllers
 
 
 
+=======
+        public IActionResult Restoran()
+        {
+            return View();
+        }
+        public IActionResult Hizmetlerimiz()
+        {
+            return View();
+        }
+>>>>>>> cb96f964ac8b2ce13737aa1dd07ea83d54c7e778
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
