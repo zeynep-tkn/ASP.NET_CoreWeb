@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\it.stajyer1\\.nuget\\packages\\": {}
+    "C:\\Users\\it.stajyer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\it.stajyer1\\source\\repos\\newRepo\\OtelRezervasyonSitesi\\OtelRezervasyonSitesi.csproj",
+      "projectUniqueName": "C:\\Users\\it.stajyer\\source\\repos\\OtelRezervasyonSitesi\\OtelRezervasyonSitesi\\OtelRezervasyonSitesi.csproj",
       "projectName": "OtelRezervasyonSitesi",
-      "projectPath": "C:\\Users\\it.stajyer1\\source\\repos\\newRepo\\OtelRezervasyonSitesi\\OtelRezervasyonSitesi.csproj",
-      "packagesPath": "C:\\Users\\it.stajyer1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\it.stajyer1\\source\\repos\\newRepo\\OtelRezervasyonSitesi\\obj\\",
+      "projectPath": "C:\\Users\\it.stajyer\\source\\repos\\OtelRezervasyonSitesi\\OtelRezervasyonSitesi\\OtelRezervasyonSitesi.csproj",
+      "packagesPath": "C:\\Users\\it.stajyer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\it.stajyer\\source\\repos\\OtelRezervasyonSitesi\\OtelRezervasyonSitesi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\it.stajyer1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\it.stajyer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
