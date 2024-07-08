@@ -6,8 +6,11 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+<<<<<<< HEAD
   <ItemGroup>
     <Folder Include="wwwroot\videos\denemevideo.mp4\" />
   </ItemGroup>
 
+=======
+>>>>>>> 3b5f9116dfd2f5d3fa335c8eac61d9098c993414
 </Project>

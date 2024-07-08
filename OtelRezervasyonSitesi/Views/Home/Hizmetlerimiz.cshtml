@@ -1,6 +1,81 @@
 ﻿@{
-    ViewData["Title"] = "Hizmetlerimiz";
+    ViewData["Title"] = "Hizmet ve Olanaklar";
 }
-<h1>@ViewData["Title"]</h1>
+<!-- Sayfanın Üst Kısmı -->
+<div class="service-header">
+    <h1>@ViewData["Title"]</h1>
+    <div class="service-list">
+        <div class="service-item">Otel Olanakları</div>
+        <div class="service-item">Havaalanı Ulaşımı</div>
+        <div class="service-item">24 Saat Oda Servisi</div>
+        <div class="service-item">Gemi Turu Düzenlemesi</div>
+        <div class="service-item">Bebek Bakıcılığı Hizmetleri</div>
+    </div>
+</div>
 
-<p>Bu gizlilik yazısıdırr.</p>
+<!-- Görsel Kısmı -->
+<div class="image-container mt-5">
+    <img src="/images/otel.jpg" alt="Erken Rezervasyon" class="img-fluid">
+    <!-- İletişime Geçin Kartı -->
+    <div class="contact-card">
+        <div class="contact-content">
+            <span>İletişime Geçin:</span>
+            <a href="tel:+1234567890" class="contact-phone">+123 456 7890</a>
+        </div>
+    </div>
+</div>
+<!-- Otel Olanakları Başlığı -->
+<div class="facilities-section">
+    <h2 class="facilities-title">Otel Olanakları</h2>
+    <div class="facilities-carousel">
+        <button class="carousel-button prev" aria-label="Önceki Olanaklar">&#9664;</button>
+        <div class="carousel-container">
+            <div class="carousel-items">
+                <img src="/images/erken-rezervasyon.jpg" alt="Olanak 1">
+                <img src="/images/otel.jpg" alt="Olanak 2">
+                <img src="/images/erken-rezervasyon.jpg" alt="Olanak 3">
+                <img src="/images/otel.jpg" alt="Olanak 4">
+                <img src="/images/erken-rezervasyon.jpg" alt="Olanak 5">
+                <img src="/images/otel.jpg" alt="Olanak 6">
+                <!-- Daha fazla görsel ekleyebilirsiniz -->
+            </div>
+        </div>
+        <button class="carousel-button next" aria-label="Sonraki Olanaklar">&#9654;</button>
+    </div>
+</div>
+
+<!-- JavaScript kodunu buraya ekleyin -->
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const prevButton = document.querySelector('.carousel-button.prev');
+        const nextButton = document.querySelector('.carousel-button.next');
+        const carouselContainer = document.querySelector('.carousel-container');
+        const carouselItems = document.querySelector('.carousel-items');
+        const totalItems = carouselItems.children.length;
+        const itemWidth = 400; // Görsellerin genişliği
+        let currentIndex = 0;
+
+        // Başlangıçta tam ortadaki görseli göstermek için
+        carouselItems.style.transform = `translateX(-${itemWidth * currentIndex}px)`;
+
+        // Önceki düğmeye tıklama
+        prevButton.addEventListener('click', () => {
+            if (currentIndex > 0) {
+                currentIndex--;
+            } else {
+                currentIndex = totalItems - 1; // Başlangıca dön
+            }
+            carouselItems.style.transform = `translateX(-${itemWidth * currentIndex}px)`;
+        });
+
+        // Sonraki düğmeye tıklama
+        nextButton.addEventListener('click', () => {
+            if (currentIndex < totalItems - 1) {
+                currentIndex++;
+            } else {
+                currentIndex = 0; // Başlangıca dön
+            }
+            carouselItems.style.transform = `translateX(-${itemWidth * currentIndex}px)`;
+        });
+    });
+</script>
