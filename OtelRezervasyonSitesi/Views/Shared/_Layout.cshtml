@@ -24,15 +24,12 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Gizlilik</a>
-
-                           </li>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Restoran">Restaurant</a>
-
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Hizmetlerimiz">Hizmetlerimiz</a>
-
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="OtelGenelBakis">Otel Genel Bakış</a>
@@ -40,26 +37,42 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Konaklama">Konaklama</a>
                         </li>
-
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <div class="container">
+    <div class="container-fluid">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - OtelRezervasyonSitesi - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <!-- Yeni Footer -->
+    <footer class="bg-dark text-white mt-5 p-4 text-center">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Hakkında</h5>
+                    <p>Otelimizin tarihçesi, misyonu ve vizyonu hakkında bilgi edinin.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>İletişim</h5>
+                    <p>Telefon: (123) 456-7890<br />Email: info@hotel.com</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Adres</h5>
+                    <p>1234 Otel Caddesi, Şehir, Ülke</p>
+                </div>
+            </div>
         </div>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
+
+
 </body>
 </html>

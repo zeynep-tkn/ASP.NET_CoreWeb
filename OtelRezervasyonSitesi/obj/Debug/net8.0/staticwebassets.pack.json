@@ -13,6 +13,22 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\it.stajyer\\source\\repos\\OtelRezervasyonSitesi\\OtelRezervasyonSitesi\\wwwroot\\images\\erken-rezervasyon.jpg",
+      "PackagePath": "staticwebassets\\images\\erken-rezervasyon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\it.stajyer\\source\\repos\\OtelRezervasyonSitesi\\OtelRezervasyonSitesi\\wwwroot\\images\\etkinlikler.jpg",
+      "PackagePath": "staticwebassets\\images\\etkinlikler.jpg"
+    },
+    {
+      "Id": "C:\\Users\\it.stajyer\\source\\repos\\OtelRezervasyonSitesi\\OtelRezervasyonSitesi\\wwwroot\\images\\otel-bilgi.jpg",
+      "PackagePath": "staticwebassets\\images\\otel-bilgi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\it.stajyer\\source\\repos\\OtelRezervasyonSitesi\\OtelRezervasyonSitesi\\wwwroot\\images\\otel.jpg",
+      "PackagePath": "staticwebassets\\images\\otel.jpg"
+    },
+    {
       "Id": "C:\\Users\\it.stajyer\\source\\repos\\OtelRezervasyonSitesi\\OtelRezervasyonSitesi\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
