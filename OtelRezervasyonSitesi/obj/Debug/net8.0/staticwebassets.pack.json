@@ -13,6 +13,26 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\it.stajyer1\\source\\repos\\newRepo\\OtelRezervasyonSitesi\\wwwroot\\images\\gorsel1.jpg",
+      "PackagePath": "staticwebassets\\images\\gorsel1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\it.stajyer1\\source\\repos\\newRepo\\OtelRezervasyonSitesi\\wwwroot\\images\\gorsel2.jpg",
+      "PackagePath": "staticwebassets\\images\\gorsel2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\it.stajyer1\\source\\repos\\newRepo\\OtelRezervasyonSitesi\\wwwroot\\images\\gorsel3.jpg",
+      "PackagePath": "staticwebassets\\images\\gorsel3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\it.stajyer1\\source\\repos\\newRepo\\OtelRezervasyonSitesi\\wwwroot\\images\\gorsel4.jpg",
+      "PackagePath": "staticwebassets\\images\\gorsel4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\it.stajyer1\\source\\repos\\newRepo\\OtelRezervasyonSitesi\\wwwroot\\images\\gorsel5.jpg",
+      "PackagePath": "staticwebassets\\images\\gorsel5.jpg"
+    },
+    {
       "Id": "C:\\Users\\it.stajyer1\\source\\repos\\newRepo\\OtelRezervasyonSitesi\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
