@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OtelRezervasyonSitesi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5860d172f21c1ba23dec287dbe015ef8443bf441")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b81b3d85b25ef334827555e5d25fca9be83f1d52")]
+>>>>>>> 3f60bbf3bafca93d6065e0e537ebb705b085e488
 [assembly: System.Reflection.AssemblyProductAttribute("OtelRezervasyonSitesi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OtelRezervasyonSitesi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
