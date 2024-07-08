@@ -1,10 +1,6 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-  "Hash": "KapJFunrd38FIVv3Tr1TnzjBfvdJqUz5XkxPzYC2kVY=",
-=======
   "Hash": "WXtzi8vX6OhRvvkCwxslIXD1WYs36dyMqdDJPKjyyJY=",
->>>>>>> 3b5f9116dfd2f5d3fa335c8eac61d9098c993414
   "Source": "OtelRezervasyonSitesi",
   "BasePath": "_content/OtelRezervasyonSitesi",
   "Mode": "Default",
@@ -193,10 +189,8 @@
       "OriginalItemSpec": "wwwroot\\images\\gorsel5.jpg"
     },
     {
-      "Identity": "C:\\Users\\it.stajyer1\\source\\repos\\newRepo\\OtelRezervasyonSitesi\\wwwroot\\js\\site.js",
-=======
+      //"Identity": "C:\\Users\\it.stajyer1\\source\\repos\\newRepo\\OtelRezervasyonSitesi\\wwwroot\\js\\site.js",
       "Identity": "C:\\Users\\it.stajyer\\source\\repos\\OtelRezervasyonSitesi\\OtelRezervasyonSitesi\\wwwroot\\images\\erken-rezervasyon.jpg",
->>>>>>> 3b5f9116dfd2f5d3fa335c8eac61d9098c993414
       "SourceId": "OtelRezervasyonSitesi",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\it.stajyer\\source\\repos\\OtelRezervasyonSitesi\\OtelRezervasyonSitesi\\wwwroot\\",
